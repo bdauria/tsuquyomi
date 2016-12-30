@@ -271,7 +271,7 @@ readFile('hoge', 'utf-8', (err, content) => {
 });
 ```
 
-To allow Tsuquyomi to import the shortest path instead of the complete one (where the initial module declaration is) one, put this in your .vimrc:
+To allow Tsuquyomi to import the shortest path instead of the complete one (where the initial module declaration is), put this in your .vimrc:
 ```
 let g:tsuquyomi_shortest_import_path = 1
 ```
